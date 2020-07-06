@@ -1,0 +1,967 @@
+/* GENERAL */
+html{
+    
+   
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+body
+{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+main
+{
+    margin: auto;
+    height: auto;
+    
+}
+p
+{
+    font-size:20px;
+    text-align:center;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: white;
+}
+
+
+
+
+/* HEADER */
+
+
+header
+{
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    height: 51vh;
+    background-image: url(../img/back1.jpg);
+    
+}
+
+header nav
+{
+    font-family: 'Leckerli One', cursive;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(252, 248, 248, 0.281);
+    
+    
+}
+
+header ul
+{
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+    color: black;
+    
+}
+
+
+
+header li
+{
+    padding: 0 7vh;
+    color: rgb(251, 250, 250);
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+
+}
+
+header li a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(250, 245, 245);
+}
+
+header li a:hover
+{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px rgb(122, 120, 120), 2px 3px 1px rgb(83, 81, 81), 4px 3px 1px rgb(73, 71, 71), 3px 4px 1px rgb(44, 43, 43), 5px 4px 1px rgb(41, 40, 40), 4px 5px 1px rgb(39, 39, 39), 6px 5px 1px rgb(48, 46, 46), 5px 6px 1px rgb(80, 79, 79), 7px 6px 1px rgb(122, 120, 120), 2px 23px 0px rgba(206,89,55,0);
+}
+
+.titre_index_header
+{
+    display: flex;
+    margin: auto;
+    font-size: 12vh;
+    color: rgb(228, 235, 241);
+    font-family: 'Leckerli One', cursive;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px rgb(122, 120, 120), 2px 3px 1px rgb(83, 81, 81), 4px 3px 1px rgb(73, 71, 71), 3px 4px 1px rgb(44, 43, 43), 5px 4px 1px rgb(41, 40, 40), 4px 5px 1px rgb(39, 39, 39), 6px 5px 1px rgb(48, 46, 46), 5px 6px 1px rgb(80, 79, 79), 7px 6px 1px rgb(122, 120, 120), 2px 23px 0px rgba(206,89,55,0);
+   
+}
+.co_nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: -7vh;
+   
+}
+
+/*FOOTER*/
+footer{
+    
+    bottom:0;
+    width:100%;
+    
+}
+
+.menu_foot{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+   justify-content: space-around;
+    
+}
+
+.nav_foot 
+{
+    display: flex;
+    color: white;  
+}
+
+	footer ul{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		
+		list-style-type: none;
+		align-items: center;
+	}
+
+    footer li 
+    {
+	padding:10px;
+	}
+
+    footer li a
+    {
+		font-size: 14px;
+		color: white;
+		text-decoration: none;
+		
+	}
+
+    footer li a:hover
+    {
+		color: silver;
+	}
+
+    footer p
+    {
+		display:flex;
+		font-size: 14px;
+		padding:10px;
+		color: white;
+		justify-content:flex-end;
+		align-items: center;
+	}
+
+.newsletter{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+/*footer*/
+
+/*index*/
+.welcome_index
+{
+    font-family: 'Leckerli One', cursive;
+    font-size: 7vh;
+    padding: 5vh; 
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.titre_index_h1
+{
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Leckerli One', cursive;
+}
+ 
+.plage_index
+{
+    font-family: 'Leckerli One', cursive;
+    font-size: 5vh;
+    animation: blur 7s ease-out infinite;
+    text-shadow: 0px 0px 1px #fff, 0px 0px 2px #fff;
+}
+
+.tableau_index_activites_1
+{
+    display: flex;
+    background-color: rgba(248, 246, 246, 0.424);
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tableau_index_activites
+{
+    display: flex;
+    background-color: rgba(248, 246, 246, 0.424);
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+.h2_index
+{
+    display: flex;
+    justify-content: left;
+    font-family: 'Leckerli One', cursive;
+    font-size: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.438) 5px;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+
+
+.container_plage_n
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: rgb(231, 205, 171);
+    color: white;
+}
+.container_plage
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(231, 205, 171);
+    color: white;
+}
+.container_plage_n:hover{
+    
+   
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.219);
+}
+.container_plage:hover{
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.356);
+}
+
+
+
+.pre_index
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 30px;
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.356);
+
+}
+
+
+.img 
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vh;
+    height: 400px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+#in1 {
+    background-image: url('../img/plage/01.jpg');
+}
+
+#in2 {
+    background-image: url('../img/pin/12_payrac_les_pins_locations_2.jpg');
+}
+
+#in3 {
+    background-image: url('../img/maquis/01.jpg');
+}
+
+.zone_descri_index
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*test*/
+
+.titre_index_header_part_a 
+{
+text-align: center;
+color: white;
+font-size:5vh ;
+font-family: 'Leckerli One', cursive;
+}   
+
+
+.titre_index_header_part_b {
+    text-align: center;
+    font-size: 10vh;
+    color: #fff;
+    font-family: 'Leckerli One', cursive;
+    animation: blur 3s ease-out ;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  }
+  
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+  }
+  
+.form_index
+{
+    display: flex;
+}
+.reservation_index
+{
+    background-color: white;
+}
+
+
+/*flipcard , zone activités */
+
+
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px;
+    border-radius: 50%;
+    list-style: none;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.4);
+}
+
+.flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20pt;
+    background-color: rgb(231, 205, 171);
+    backdrop-filter: blur(5px) hue-rotate(90deg);
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.4);
+    
+}
+
+.picsflip {
+    border-radius: 50%;
+}
+
+.nom_acti
+{
+    font-family: 'Leckerli One', cursive;
+    font-size: 55px;
+}
+
+.list_acti
+{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.element_contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.info_contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.form_contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: -1px 3px 11px 5px #000000; 
+    box-shadow: -1px 3px 11px 5px #000000;
+    padding: 30px;
+    margin: 50px;
+    height: 48vh;
+    width: 45vh;
+    background-image: url(../img/form.jpg);
+}
+.pre_index_contact
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 30px;
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.356);
+    background-image: url(../img/form.jpg);
+
+}
+
+.hs_contact
+{
+    font-family: 'Leckerli One', cursive;
+    font-size: 40px;
+}
+
+.map_index
+{
+    padding: 30px;
+}
+
+
+/*inscription*/
+
+
+
+
+input 
+{
+    border: none;
+  }
+  
+  button:focus 
+  {
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder 
+  {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  
+  ::-webkit-input-placeholder .input-line:focus +::input-placeholder 
+  {
+    color: #fff;
+  }
+  
+  .highlight 
+  {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    cursor: pointer;
+    transition: color .2s ease;
+  }
+  
+  .highlight:hover 
+  {
+    color: #fff;
+    transition: color .2s ease;
+  }
+  
+  .spacing 
+  {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 120px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.65)
+  }
+  
+  .input-line:focus 
+  {
+    outline: none;
+    border-color: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  
+  .ghost-round {
+    cursor: pointer;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.65);
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 19px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.5em;
+    margin-top: auto;
+    margin-bottom: 25px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    font-family: 'Leckerli One', cursive;
+  }
+  
+  .ghost-round:hover
+  {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  
+  .input-line {
+    background: none;
+    margin-bottom: 10px;
+    line-height: 2.4em;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 300;
+    letter-spacing: 0px;
+    letter-spacing: 0.02rem;
+    font-size: 19px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .input-fields {
+    margin-top: 25px;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+    
+  }
+  
+  .content
+  {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    z-index: 5;
+  }
+  
+  .welcome 
+  {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .subtitle 
+  {
+    text-align: center;
+    line-height: 1em;
+    font-weight: 100;
+    letter-spacing: 0px;
+    letter-spacing: 0.02rem;
+  }
+  
+  .menu 
+  {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 50px;
+  }
+  
+  .window 
+  {
+    z-index: 100;
+    color: #fff;
+    font-family: roboto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    height: 700px;
+    width: 700px;
+    background: #fff;
+  }
+  
+  .overlay 
+  {
+    background: -webkit-linear-gradient(rgb(158, 221, 247), rgb(231, 209, 157));
+    background: linear-gradient(rgb(150, 222, 250), rgb(214, 191, 147));
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    height: 750px;
+    position: absolute;
+    width: 700px;
+    z-index: 1;
+  }
+  
+  .bold-line 
+  {
+    background: #e7e7e7;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    height: 360px;
+    z-index: 1;
+    opacity:0.1;
+    background-size:cover;
+  }
+  
+  @media (max-width: 500px) 
+  {
+    .window {
+      width: 100%;
+      height: 100%;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .titre_inscri
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Leckerli One', cursive; 
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+/*inscription*/
+
+
+
+/*connexion*/
+
+.overlay_co 
+{
+  background: -webkit-linear-gradient(rgb(158, 221, 247), rgb(231, 209, 157));
+  background: linear-gradient(rgb(150, 222, 250), rgb(214, 191, 147));
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  height: 500px;
+  position: absolute;
+  width: 700px;
+  z-index: 1;
+}
+
+.window_co
+ {
+  z-index: 100;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  height: 500px;
+  width: 700px;
+}
+
+
+/*reservation*/
+.titre_reserv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity:0;
+  animation: anim 3s linear forwards 1s;
+  padding: 20px;
+  font-size: 5vh;
+  font-family: 'Leckerli One', cursive;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+@keyframes anim 
+{
+ 0%  {opacity:0;}
+ 100% {opacity:1;}
+}
+
+.lieu_reserv
+{
+  font-size: 3vh;
+}
+
+.container_reserv
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3vh;
+  background: -webkit-linear-gradient(rgb(158, 221, 247), rgb(231, 209, 157));
+}
+.recap
+{
+  background-color: antiquewhite;
+  box-shadow: azure 3px 3px 9px 3px;
+  margin-bottom: 3vh;
+}
+
+.box_reserv
+{
+  box-shadow: azure 3px 3px 20px 3px;
+}
+
+.option
+{
+  margin-bottom: 3vh;
+}
+
+/*reservation*/
+
+/*profil*/
+
+.form_pouik
+{
+  background-color: blueviolet;
+}
+
+.container_profil {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 165%;
+}
+
+.overlay_profil
+{
+  background: -webkit-linear-gradient(rgb(158, 221, 247), rgb(231, 209, 157));
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  height: 148vh;
+  position: absolute;
+  width: 700px;
+  z-index: 1;
+}
+
+.window_profil
+ {
+  z-index: 100;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  height: 148vh;
+  width: 700px;
+}
+
+.table_profil
+{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: black 2px, 2px;
+  width: 67vh;
+}
+
+.table_resa_admin {
+  border: medium solid #050505;
+  width: 100%;
+  font-family: 'Leckerli One', cursive;
+  }
+
+.table_resa_admin td{
+  background-color: #ffffff;
+  width: 50%;
+}
+
+
+  table 
+    {
+    border: medium solid #050505;
+    width: 100%;
+    }
+  th
+   {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 17px;
+ 
+  }
+  td {
+  font-family: sans-serif;
+  
+  width: 50%;
+  
+  text-align: center;
+  
+  }
+
+/*profil*/
+
+/*admin*/
+
+.container_admin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 156%;
+}
+
+.overlay_admin
+{
+  background: -webkit-linear-gradient(rgb(158, 221, 247), rgb(231, 209, 157));
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  height: 150vh;
+  position: absolute;
+  width: 700px;
+  z-index: 1;
+}
+
+.window_admin
+ {
+  z-index: 100;
+  color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  height:150vh;
+  width: 700px;
+}
+.supp_profil {
+  color: #000000;
+}
+.table_admin {
+  border: medium solid #050505;
+  width: 100%;
+  
+  }
+
+.table_admin td{
+  background-color: #ffffff;
+  width: 50%;
+}
+
+
+
+/*admin*/
